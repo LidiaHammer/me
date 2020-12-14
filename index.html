@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidia Cekic</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Adding Font Awesome-->
+    <script src="https://kit.fontawesome.com/d5b145ef9d.js" crossorigin="anonymous"></script>
+    <!-- Adding google fonts Lora & Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-trans">
+        <a class="navbar-brand ml-3" href="index.html">Č</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">01 home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#work">02 work</a>
+                <a class="nav-item nav-link" href="#aboutMe">03 about me</a>
+                <a class="nav-item nav-link" href="mailto:lidiacekic9@gmail.com">04 contact</a>
+                <a class="nav-item nav-link" href="files/CV-Lidia-Cekic.pdf" id="resume">Résumé </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <div>
+        <!-- Intro Page Start -->
+        <div class="container d-flex" id="intro">
+            <!-- Intro Text Start -->
+            <div class="d-flex align-items-center justify-content-center row" id="introText">
+                <div class="d-none d-md-inline col-1"></div>
+                <div class=" pl-5 col-12 col-md-10 ">
+                    <h1 class="hi">Hi, I'm <span class="red ">Lidia Čekić</span>, a passionate Fullstack Frontend <span class="u">Developer</span>, based in Vienna, Austria.</h1>
+                    <div class="mt-5">
+                        <a href="https://linkedin.com/in/lidiaCekic">
+                            <i class="fa fa-3x ml-1 mr-2 my-2 hero-icon fa-linkedin text-dark "></i>
+                        </a>
+                        <a href="mailto:lidiacekic9@gmail.com">
+                            <i class="fa fa-3x m-2 hero-icon fa-envelope-o text-dark mx-3"></i>
+                        </a>
+                        <a href="https://twitter.com/CekicLidia">
+                            <i class="fab fa-3x m-2 hero-icon fa-twitter text-dark mx-3"></i>
+                        </a>
+                        <a href="https://github.com/LidiaHammer">
+                            <i class="fab fa-3x m-2 hero-icon fa-github text-dark mx-3"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Intro Text End -->
+
+            <!-- Intro Picture Start -->
+            <div class="d-none d-md-inline col-1"></div>
+            <div id="introImage" class="d-none d-lg-flex align-items-center justify-content-center col-5 ">
+                <figure>
+                    <div class="pulsating-circle" data-toggle="popover" title="'User Centered Design'" data-content="Inspired by Don Norman's book 'The design of everyday things' &        Erwin Wurm's 'One Minute Scupltures'">
+                    </div>
+                    <img src="images/5.png" id="wurm" alt="" class="">
+                </figure>
+            </div>
+            <!-- Intro Picture End -->
+        </div>
+        <!-- Intro End -->
+
+        <!-- Services Start -->
+        <div class="d-flex flex-column align-items-center justify-content-center skills">
+            <h2 class="mt-5">My services</h2>
+            <div class=" skills d-flex flex-column align-items-center justify-content-center mb-5   buzzwords">
+                <div class="row  lora d-flex justify-content-between skillsInside">
+                    <p class="whatdo col-12 col-md-8 my-2">frontend development. </p>
+                    <p class="whatdo col-12 col-md-4  my-2 text-right">teamplayer.</p>
+                    <p class="whatdo col-12 col-md-4 u  my-2 text-left">be curious. </p>
+                    <p class="whatdo col-12 col-md-8 my-2 text-right">backend development. </p>
+                    <p class="whatdo col-12 col-md-2 my-2 ">create.</p>
+                    <p class="whatdo d-none d-md-inline col-md-1 my-3 text-left bold"></p>
+                    <p class="whatdo col-12 col-md-4 my-2">UX design.</p>
+                    <p class="whatdo d-none d-md-inline col-12 col-md-1 red my-2">&</p>
+                    <p class="whatdo col-12 col-md-4 shimmer my-2 text-right">pet dogs.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- My Work Start -->
+        <div class="works d-flex flex-column align-items-center justify-content-center skills h-100" id="work">
+            <h2 class=" my-5">Some things I've built</h2>
+            <div class="works2 d-flex flex-column align-items-center justify-content-center my-5 ">
+                <div class="row my-5 d-flex justify-content-around">
+                    <div class="card zoom bg-transparent col-9 col-md-4 mb-5 m-md-0  border-0">
+                        <a href="https://github.com/LidiaHammer/AlienGame"><img class="card-img-top" src="images/rocket.png" alt="Card image cap">
+                            <div class="card-body px-0">
+                                <h5 class="card-title">Alien Game</h5>
+                                <p class="card-text">JS, CSS <i class="fab fa-3x mx-2 hero-icon fa-github text-dark "> </i></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card zoom bg-transparent  col-9 col-md-4 mt-5 m-md-0 border-0">
+                        <a href="https://github.com/LidiaHammer/PhotographyWEB"><img class="card-img-top" src="images/fotographer.png" alt="Card image cap">
+                            <div class="card-body px-0">
+                                <h5 class="card-title">Photographer's Website</h5>
+                                <p class="card-text">HTML, CSS, SASS, Typscript <i class="fab fa-3x mx-2 hero-icon fa-github text-dark "> </i></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row my-5 d-flex justify-content-around">
+                    <div class="card zoom bg-transparent col-9 col-md-4 mb-5 m-md-0 border-0">
+                        <a href="https://github.com/LidiaHammer/CR11-CEKIC-PetAdoption"><img class="card-img-top" src="images/codePet.png" alt="Card image cap">
+                            <div class="card-body px-0">
+                                <h5 class="card-title">Adopt a pet</h5>
+                                <p class="card-text">PHP, MySQL, Bootstrap <i class="fab fa-3x mx-2 hero-icon fa-github text-dark "> </i></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card zoom bg-transparent col-9 col-md-4 mt-5 m-md-0 border-0">
+                        <img class="card-img-top" src="images/oebb.png" alt="Card image cap" id="pit">
+                        <div class="card-body px-0">
+                            <h5 class="card-title">MyCarbon ÖBB App</h5>
+                            <p class="card-text">UX / UI Design in the making</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- My Work End -->
+
+        <!-- About Me Start -->
+        <div class="py-5" id="aboutMe">
+            <div class="container d-flex" id="intro">
+                <!-- About Me Text -->
+                <div class="d-flex align-items-center justify-content-center row" id="introText">
+                    <div class="d-none d-md-inline col-2"></div>
+                    <div class=" col-10">
+                        <h1 class="mb-3 lidia"><span class="red lora  ">Lidia Čekić BA, Bsc</span> </h1>
+                        <h5 class="mb-2 aboutMeTextSmall">A well-organized curious all-rounder ready to create. </h5>
+                        <p class="aboutMeText">The dynamic and innovative field of technology feeds my curiosity. Through my studies, I gained significant knowledge of the business field, covering marketing and production management as well as acquiring extensive knowledge
+                            of art and visual media through my master’s studies. Paired with my software engineering skills I strive to build engaging, functional, and accessible human interfaces.
+                        </p>
+                        <p class="aboutMeText">Check out my <a class="bold u p-1" href="files/CV-Lidia-Cekic.pdf">Résumé </a> for more information.</p>
+                    </div>
+                </div>
+                <!-- About Me Image  -->
+                <div id="introImage" class="d-none d-lg-flex align-items-center justify-content-center col-6 ">
+                    <figure>
+                        <img src="images/4.png" id="chair" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- About Me End -->
+
+        <!-- Skills Start -->
+        <div class="d-flex flex-column align-items-center justify-content-center skills">
+            <h2 class="mt-5">Skills</h2>
+            <div class=" skills d-flex flex-column align-items-center justify-content-center mb-5 buzzwords ">
+                <div class="row d-flex justify-content-between  skillsInside">
+                    <h1 class="whatcan col-12 col-md-4 my-3">HTML. </h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3 text-center">Wordpress.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3 text-right">Angular.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3">JS.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3 text-center"> Symfony.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3 text-right">Adobe XD.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-3">CSS. </h1>
+                    <h1 class="whatcan col-12 col-md-4  my-2 text-center">SQL, PHP.</h1>
+                    <h1 class="whatcan col-12 col-md-4 my-2 text-right">Figma.</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Skills End -->
+
+        <!-- Footer Start -->
+        <footer id="footer" class="d-flex flex-column align-items-center">
+            <div class="footerText mx-0 mx-md-5 d-flex justify-content-center align-items-center pt-5">
+                <p class=" ml-0 ml-md-5 pt-5 drop">
+                    <span class="red"><a href="mailto:lidiacekic9@gmail.com">Drop me a line,</a></span> I'd like to hear from you! <img id="smile" class="ml-3 drop" src="images/smile.png" alt="smile"></p>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="https://linkedin.com/in/lidiaCekic">
+                    <i class="fa fa-3x m-2 footer-icon fa-linkedin text-dark mx-3"></i>
+                </a>
+                <a href="mailto:lidiacekic9@gmail.com">
+                    <i class="fa fa-3x m-2 footer-icon fa-envelope-o text-dark mx-3"></i>
+                </a>
+                <a href="https://twitter.com/CekicLidia">
+                    <i class="fab fa-3x m-2 footer-icon fa-twitter text-dark mx-3"></i>
+                </a>
+                <a href="https://github.com/LidiaHammer">
+                    <i class="fab fa-3x m-2 footer-icon fa-github text-dark mx-3"></i></a>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
+
+    <!-- local cript files -->
+    <script src="script.js"></script>
+    <!-- popper and bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

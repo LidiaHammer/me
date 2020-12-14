@@ -1,0 +1,379 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DAD5CA;
+}
+
+.navbar-brand {
+    font-size: 64px;
+}
+
+#intro {
+    width: 100%;
+    height: 90vh;
+}
+
+.hi {
+    font-size: 34px;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.red {
+    color: #E64926;
+}
+
+#chair {
+    width: 500px;
+    height: auto;
+    padding-bottom: 180px;
+}
+
+#wurm {
+    width: 500px;
+    padding-bottom: 130px;
+}
+
+.skills {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F2F2;
+}
+
+.skillsInside {
+    width: 70%;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.whatdo {
+    font-size: 2.7vw;
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.works {
+    width: 100%;
+    height: 180vh;
+    background-color: #F2F2F2;
+}
+
+.works2 {
+    width: 60%;
+    background-color: #F2F2F2;
+}
+
+.works h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+#carbon {
+    width: 16vw;
+}
+
+#rocket {
+    width: 16vw;
+}
+
+#pit {
+    filter: opacity(20%);
+}
+
+.zoom {
+    transition: transform 0.4s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    width: 100%;
+    height: 110vh;
+    background-color: #DAD5CA;
+}
+
+i.footer-icon:hover {
+    color: #E64926 !important;
+}
+
+i.hero-icon:hover {
+    color: #E64926 !important;
+}
+
+.hero-icon {
+    font-size: 32px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a h2 {
+    text-decoration: underline;
+}
+
+.footerText {
+    font-size: 4vw;
+    height: 80vh;
+}
+
+.footerText p {
+    width: 70%;
+}
+
+.u {
+    text-decoration: underline;
+    text-decoration-color: #E64926;
+}
+
+.buzzwords {
+    width: 75%;
+}
+
+.list-group {
+    width: 15vw;
+    background-color: #F2F2F2;
+}
+
+#resume {
+    border: solid black 1px;
+}
+
+.whatcan {
+    font-size: 2.7vw;
+    font-family: 'Lora', serif;
+}
+
+.skill {
+    font-size: 32px;
+}
+
+#skillAll {
+    width: 80%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sepia {
+    color: #DAD5CA;
+}
+
+#smile {
+    width: 7vw;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.research {
+    background-color: rgb(52, 50, 50);
+}
+
+.research1 {
+    height: auto;
+    width: 600px;
+    border: black solid 2px;
+}
+
+.research2 {
+    height: auto;
+    width: 550px;
+}
+
+.aboutMeText {
+    font-size: 20px;
+}
+
+.fa-circle {
+    font-size: 16px;
+}
+
+.shimmer {
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pulsating-circle {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.pulsating-circle:before {
+    content: '';
+    position: relative;
+    display: block;
+    width: 300%;
+    height: 300%;
+    box-sizing: border-box;
+    margin-left: -100%;
+    margin-top: -100%;
+    border-radius: 45px;
+    background-color: white;
+    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.pulsating-circle:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+    animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.63);
+    }
+    80%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-dot {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hi {
+        font-size: 28px;
+    }
+    p.whatdo {
+        font-size: 16px;
+        text-align: left;
+        text-align: center !important;
+    }
+    h1.whatcan {
+        font-size: 16px;
+        text-align: center !important;
+    }
+    .aboutMeText {
+        font-size: 16px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .card-tex {
+        font-size: 16px;
+    }
+    .lidia {
+        font-size: 28px;
+    }
+    .aboutMeTextSmall {
+        font-size: 22px;
+    }
+    .drop {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .footer-icon {
+        font-size: 28px;
+    }
+}
