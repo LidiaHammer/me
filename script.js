@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 });
 
-$('#home .navbar-nav a').on('click', function() {
-    $('#home .navbar-nav').find('li.active').removeClass('active');
+$('#body .navbar-nav a').on('click', function() {
+    $('#body .navbar-nav').find('li.active').removeClass('active');
     $(this).parent('li').addClass('active');
 });
