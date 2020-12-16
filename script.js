@@ -6,6 +6,6 @@ $(document).ready(function() {
 });
 
 $('#body .navbar-nav a').on('click', function() {
-    $('#body .navbar-nav').find('li.active').removeClass('active');
-    $(this).parent('li').addClass('active');
+    $('#body .navbar-nav').find('a.active').removeClass('active');
+    $(this).parent('a').addClass('active');
 });
