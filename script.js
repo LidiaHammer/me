@@ -4,3 +4,8 @@ $(document).ready(function() {
         trigger: 'hover'
     });
 });
+
+$('#home .navbar-nav a').on('click', function() {
+    $('#home .navbar-nav').find('li.active').removeClass('active');
+    $(this).parent('li').addClass('active');
+});

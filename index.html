@@ -20,21 +20,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
     <!-- Navbar Start -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-trans">
         <a class="navbar-brand ml-3" href="index.html">Č</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="index.html">01 home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#work">02 work</a>
-                <a class="nav-item nav-link" href="#aboutMe">03 about me</a>
-                <a class="nav-item nav-link" href="mailto:lidiacekic9@gmail.com">04 contact</a>
-                <a class="nav-item nav-link" href="files/CV-Lidia-Cekic.pdf" id="resume">Résumé </a>
-            </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link " href="#introText">01 home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">02 work</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">03 about me</a>
+                </li>
+
+                <li class="nav-item" target="_blank">
+                    <a class="nav-link" href="mailto:lidiacekic9@gmail.com">04 contact</a>
+                </li>
+
+                <li class="nav-item" target="_blank">
+                    <a class="nav-link" href="files/CV-Lidia-Cekic.pdf" id="resume">Résumé </a>
+                </li>
+
+            </ul>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -42,7 +59,7 @@
 
     <div>
         <!-- Intro Page Start -->
-        <div class="container d-flex" id="intro">
+        <div class="container d-flex intro">
             <!-- Intro Text Start -->
             <div class="d-flex align-items-center justify-content-center row" id="introText">
                 <div class="d-none d-md-inline col-1"></div>
@@ -142,7 +159,7 @@
 
         <!-- About Me Start -->
         <div class="py-5" id="aboutMe">
-            <div class="container d-flex" id="intro">
+            <div class="container d-flex intro">
                 <!-- About Me Text -->
                 <div class="d-flex align-items-center justify-content-center row" id="introText">
                     <div class="d-none d-md-inline col-2"></div>
@@ -209,11 +226,10 @@
 
     <!-- local cript files -->
     <script src="script.js"></script>
-    <!-- popper and bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <!-- jQuery, popper and bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
