@@ -391,3 +391,13 @@ a h2 {
 .bulb li::before {
     content: "💡";
 }
+
+.widthRegulator {
+    width: 50%;
+}
+
+@media screen and (max-width: 820px) {
+    .widthRegulator {
+        width: 80%;
+    }
+}
