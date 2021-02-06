@@ -9,3 +9,12 @@ $('#body .navbar-nav a').on('click', function() {
     $('#body .navbar-nav').find('a.active').removeClass('active');
     $(this).parent('a').addClass('active');
 });
+
+window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ELW4SPNLPX');
