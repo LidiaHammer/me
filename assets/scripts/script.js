@@ -10,11 +10,18 @@ $('#body .navbar-nav a').on('click', function() {
     $(this).parent('a').addClass('active');
 });
 
+//bavbar mobile 
+
+$('.navbar-collapse a').click(function() {
+    $(".navbar-collapse").collapse('hide');
+});
+
+//google analytics
 window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
 
-        gtag('config', 'G-ELW4SPNLPX');
+gtag('config', 'G-ELW4SPNLPX');
