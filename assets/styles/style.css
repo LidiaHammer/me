@@ -381,7 +381,7 @@ a h2 {
         z-index: -1;
         top: 0;
         left: 0;
-        height: 60%;
+        height: 40%;
         /* transition: ease-in-out all 0.3s; */
     }
     .navbar-collapse ul.navbar-nav {
