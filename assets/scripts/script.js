@@ -10,7 +10,7 @@ $('#body .navbar-nav a').on('click', function() {
     $(this).parent('a').addClass('active');
 });
 
-//bavbar mobile 
+//navbar mobile 
 
 $('.navbar-collapse a').click(function() {
     $(".navbar-collapse").collapse('hide');
