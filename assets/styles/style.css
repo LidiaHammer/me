@@ -385,6 +385,24 @@ a h2 {
 
 /*media query*/
 
+@media screen and (max-width: 1400px) {
+    #wurm {
+        width: 450px;
+    }
+    #chair {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #wurm {
+        width: 400px;
+    }
+    #chair {
+        width: 400px;
+    }
+}
+
 @media screen and (max-width: 820px) {
     .navbar-collapse {
         width: 100%;
